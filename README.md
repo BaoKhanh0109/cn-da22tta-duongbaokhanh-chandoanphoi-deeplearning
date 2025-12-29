@@ -1,4 +1,4 @@
-# Hệ Thống Hỗ Trợ Chẩn Đoán Bệnh Phổi Từ Ảnh X-Quang
+# Phát triển hệ Thống Hỗ Trợ Chẩn Đoán Bệnh Phổi
 
 ## 📋 Giới thiệu
 
