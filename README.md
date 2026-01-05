@@ -68,7 +68,7 @@ git clone https://github.com/BaoKhanh0109/cn-da22tta-duongbaokhanh-chandoanphoi-
 cd lung-diagnosis
 ```
 
-2. **Tạo môi trường ảo (khuyến nghị):**
+2. **Tạo môi trường ảo:**
 ```bash
 python -m venv venv
 # Windows
@@ -82,43 +82,9 @@ source venv/bin/activate
 pip install -r setup/requirements.txt
 ```
 
-4. **Tải mô hình đã huấn luyện:**
-   - Đặt file `best_model_soup.pth` vào thư mục `models/`
-
-5. Tải bộ dữ liệu VinDr-CXR:**
+4. Tải bộ dữ liệu VinDr-CXR:**
    - Tải từ: https://www.kaggle.com/datasets/awsaf49/vinbigdata-512-image-dataset/data
-   - Giải nén và đặt thư mục `train` vào thư mục `data`
-
-## 🚀 Chạy ứng dụng
-
-### Khởi động Web Server:
-```bash
-uvicorn api.main:app --reload
-```
-
-### Truy cập ứng dụng:
-Mở trình duyệt và truy cập: **http://127.0.0.1:8000**
-
-### Sử dụng:
-1. Upload ảnh X-quang ngực (định dạng JPG, PNG, DICOM)
-2. Nhấn nút "Chẩn đoán"
-3. Xem kết quả và heatmap vùng tổn thương
-
-## 🧠 Kiến trúc mô hình
-
-Mô hình sử dụng kiến trúc lai ghép:
-- **Backbone**: EfficientNet-B4 (pre-trained trên ImageNet)
-- **GCN**: 2 lớp Graph Convolutional Network để học mối quan hệ giữa các bệnh
-- **Input size**: 512x512 pixels
-
-## 📊 Kết quả
-
-Mô hình đạt được kết quả tốt trên tập validation của VinDr-CXR với các chỉ số AUC cao cho các bệnh lý phổ biến.
-
-## 👨‍💻 Tác giả
-
-- **Dương Bảo Khánh**
-- Đồ án chuyên ngành - DA22TTA
+   - Giải nén và đặt ảnh vào thư mục `train`
 
 ## 📄 License
 
