@@ -84,7 +84,7 @@ pip install -r setup/requirements.txt
 
 4. Tải bộ dữ liệu VinDr-CXR:**
    - Tải từ: https://www.kaggle.com/datasets/awsaf49/vinbigdata-512-image-dataset/data
-   - Giải nén và đặt ảnh vào thư mục `data`
+   - Giải nén vào thư mục `data`
 
 ## 📄 License
 
