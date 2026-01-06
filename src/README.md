@@ -117,7 +117,7 @@ Mô hình đạt được kết quả tốt trên tập validation của VinDr-C
 
 ## 👨‍💻 Tác giả
 
-- **Dương Bảo Khánh**
+- **Dương Bảo Khanh**
 - Đồ án chuyên ngành - DA22TTA
 
 ## 📄 License
